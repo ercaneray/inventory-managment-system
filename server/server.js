@@ -1,5 +1,3 @@
-require('dotenv').config();
-
 const express = require('express');
 const mongoose = require('mongoose');
 const cors = require('cors');
@@ -9,38 +7,34 @@ const warehouseRoutes = require('./routes/warehouses');
 const userRoutes = require('./routes/user');
 const logChangeRoutes = require('./routes/logChange');
 const transactionRoutes = require('./routes/transaction');
-// express app
 
 const app = express();
 
-// middleware
-
+// Middleware
 app.use(express.json());
-// server.js
 app.use(cors({
     origin: '*',
     methods: ['GET', 'POST', 'PUT', 'DELETE', 'PATCH'],
     preflightContinue: false,
-    "optionsSuccessStatus": 204
+    optionsSuccessStatus: 204
 }));
 
-
-//routes
+// Routes
 app.use('/api/workers', workerRoutes);
 app.use('/api/vehicles', vehicleRoutes);
 app.use('/api/warehouses', warehouseRoutes);
 app.use('/api/user', userRoutes);
 app.use('/api/logChange', logChangeRoutes);
 app.use('/api/transaction', transactionRoutes);
-// connect to mongodb & listen for requests
 
+// Export Express App (Serverless Functions için gerekli)
+module.exports = app;
+
+// Veritabanına Bağlanma (Vercel'de işlevsel olması için ayrı bir dosya olarak tutulabilir)
 mongoose.connect(process.env.MONGO_URI)
     .then(() => {
-        console.log('connected to db');
-        // listen for requests
-        app.listen(process.env.PORT, '0.0.0.0', () => {
-            console.log('listening on port', process.env.PORT);
-        });
-     }).catch(err => {
-        console.log(err);
+        console.log('Connected to database');
+    })
+    .catch(err => {
+        console.error('Database connection error:', err);
     });
