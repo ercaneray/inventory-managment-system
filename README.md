@@ -8,11 +8,21 @@ This project is an inventory management system designed to help businesses keep 
 - **Reporting**: Generate comprehensive reports on inventory status, stock levels, and order history.
 - **User Authentication**: Secure login system for users.
 - **Permission System**:Assign cities and permissions to users and render items according to that.
+  
 ## Workers Page
-<img width="1440" alt="image" src="https://github.com/user-attachments/assets/3bef7bdc-ca6f-4404-8477-51235f713ba2">
+<img width="1440" alt="Workers Page" src="https://raw.githubusercontent.com/ercaneray/inventory-management-system/main/client/images/workers.png">
 
 ## User List
-<img width="1440" alt="Screenshot 2024-08-25 at 12 50 51 AM" src="https://github.com/user-attachments/assets/3e02a65f-26b3-4282-9fc4-6be159f0188b">
+<img width="1440" alt="User List" src="https://raw.githubusercontent.com/ercaneray/inventory-management-system/main/client/images/users.png">
 
 ## Change History
-<img width="1440" alt="image" src="https://github.com/user-attachments/assets/022c8315-a768-49f0-bb12-e2e4b09b982a">
+<img width="1440" alt="Change History" src="https://raw.githubusercontent.com/ercaneray/inventory-management-system/main/client/images/change-history.png">
+
+## Login Page
+<img width="1440" alt="Login Page" src="https://raw.githubusercontent.com/ercaneray/inventory-management-system/main/client/images/login-page.png">
+
+## User Permission Control
+<img width="1440" alt="User Permission Control" src="https://raw.githubusercontent.com/ercaneray/inventory-management-system/main/client/images/user-permission-control.png">
+
+## Warehouses
+<img width="1440" alt="Warehouses" src="https://raw.githubusercontent.com/ercaneray/inventory-management-system/main/client/images/warehouses.png">
