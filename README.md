@@ -10,7 +10,7 @@ This project is an inventory management system designed to help businesses keep 
 - **Permission System**:Assign cities and permissions to users and render items according to that.
   
 ## Workers Page
-![Workers Page](https://github.com/ercaneray/inventory-managment-system/blob/main/workers.png?raw=true)
+![Workers Page](https://github.com/ercaneray/inventory-managment-system/blob/main/images/workers.png?raw=true)
 
 ## User List
 ![User List](client/images/users.png)
