@@ -10,19 +10,19 @@ This project is an inventory management system designed to help businesses keep 
 - **Permission System**:Assign cities and permissions to users and render items according to that.
   
 ## Workers Page
-<img width="1440" alt="Workers Page" src="https://raw.githubusercontent.com/ercaneray/inventory-management-system/main/client/images/workers.png">
+<img width="1440" alt="Workers Page" src="https://raw.githubusercontent.com/ercaneray/inventory-management-system/main/images/workers.png">
 
 ## User List
-<img width="1440" alt="User List" src="https://raw.githubusercontent.com/ercaneray/inventory-management-system/main/client/images/users.png">
+<img width="1440" alt="User List" src="https://raw.githubusercontent.com/ercaneray/inventory-management-system/main/images/users.png">
 
 ## Change History
-<img width="1440" alt="Change History" src="https://raw.githubusercontent.com/ercaneray/inventory-management-system/main/client/images/change-history.png">
+<img width="1440" alt="Change History" src="https://raw.githubusercontent.com/ercaneray/inventory-management-system/main/images/change-history.png">
 
 ## Login Page
-<img width="1440" alt="Login Page" src="https://raw.githubusercontent.com/ercaneray/inventory-management-system/main/client/images/login-page.png">
+<img width="1440" alt="Login Page" src="https://raw.githubusercontent.com/ercaneray/inventory-management-system/main/images/login-page.png">
 
 ## User Permission Control
-<img width="1440" alt="User Permission Control" src="https://raw.githubusercontent.com/ercaneray/inventory-management-system/main/client/images/user-permission-control.png">
+<img width="1440" alt="User Permission Control" src="https://raw.githubusercontent.com/ercaneray/inventory-management-system/main/images/user-permission-control.png">
 
 ## Warehouses
-<img width="1440" alt="Warehouses" src="https://raw.githubusercontent.com/ercaneray/inventory-management-system/main/client/images/warehouses.png">
+<img width="1440" alt="Warehouses" src="https://raw.githubusercontent.com/ercaneray/inventory-management-system/main/images/warehouses.png">
