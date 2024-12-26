@@ -3,8 +3,8 @@
 This project is an inventory management system designed to help businesses keep track of their stock levels, orders, and suppliers. It provides a user-friendly interface for managing inventory items, tracking stock levels, and generating reports.
 ## Live Preview
 https://inventory-managment-system-client.vercel.app/
-username: test@rcn.com
-password: Test.1234
+-username: test@rcn.com
+-password: Test.1234
 ## Features
 - **Inventory Management**: Add, update, delete and transfer inventory items.
 - **Change History**: Keep track of changes made in inventories.
